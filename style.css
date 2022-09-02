@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #F5F5F5;
+    color: #1C1C1C;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+}
+
+p { 
+    font-weight: 400;
+}
+
+b {
+    font-weight: 700;
+}
+
+.header {
+    width: 375px;
+    height: 67px;
+    background-color: #fff;
+    margin: 0 auto;
+    border-bottom: solid 1px #C6C6C6;
+    display: flex;
+    justify-content: space-between;
+}  
+
+.container {
+    width: 375px;
+    height: 545px;
+    background-color: #fff;
+    margin: 0 auto;
+}  
+
+.avatar-img {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    margin: 16px 16px;
+}
+
+.logo-img {
+    width: 127px;
+    height: 50px;
+    margin: 8px 16px;
+}
+
+.user-info {
+    width: 375px;
+    height: 55px;
+    display: flex;
+}
+
+.user-info .avatar-img {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 7;
+}
+
+.user-info p {
+    margin-top: 11px;
+    margin-left: 0px;
+}
+
+.post {
+    width: 375px;
+    height: 375px;
+}
+
+.post .post-img {
+    width: 100%;
+    max-width: 375;
+    height: auto;
+}
+
+.post-icons {
+    width: 375px;
+    height: 50px;
+    margin-left: 0px;
+    display: flex;
+    margin-left: 10px;
+}
+
+.post-icon-img {
+    width: 25px;
+    height: 25px;
+    margin-top: 15px;
+    margin-right: 12px;
+}
+
+.likes-container p{
+    text-align: left;
+    margin-left: 13px;
+    margin-bottom: 12px;
+}
